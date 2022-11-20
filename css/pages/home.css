@@ -1,0 +1,28 @@
+.header-container {
+    height: 109px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 125px;
+    margin-right: 272px;
+}
+
+.logo {
+    font-size: 24px;
+    line-height: 29.05px;
+    margin-top: 40px;
+}
+
+.header-menu {
+    margin-top: 49px;
+}
+
+.header-menu a {
+    font-size: 20px;
+    color: var(--black);
+    text-transform: capitalize;
+    padding-left: 50px;
+}
+
+.header-menu a:first-child {
+    padding-left: 0;
+}
