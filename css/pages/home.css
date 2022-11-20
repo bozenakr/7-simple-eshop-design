@@ -53,6 +53,22 @@ h1 {
 .hero-container p {
     padding: 27px 0 125px 0;
 }
+
+.btn-hero {
+    padding: 0.5em 1.5em;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--black);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-hero-light {
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--white);
+}
 /* hero end */
 
 /*kodel start */
@@ -76,3 +92,46 @@ h2 {
     padding-top: 80px;
 }
 /*kodel end */
+
+/* duk start */
+
+h3 {
+    font-size: 48px;
+    font-weight: 600;
+    padding: 114px 0 102px 0;
+}
+
+.duk-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 122px;
+    flex-wrap: wrap;
+}
+
+.duk-column {
+    width: 444px;
+}
+.duk-column div {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.duk-buttons {
+    padding-top: 200px;
+}
+.btn-duk {
+    font-size: 32px;
+    color: var(--white);
+    background-color: var(--dark-grey);
+    text-decoration: none;
+    padding: 0.3em 1em;
+    margin-right: 10px;
+    border-radius: 11px;
+}
+
+.btn-duk-light {
+    color: var(--black);
+    background-color: #f3f3f3;
+}
+/* duk end */

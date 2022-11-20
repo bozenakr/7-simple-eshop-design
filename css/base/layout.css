@@ -12,4 +12,5 @@ body {
 .row {
     width: 70%;
     margin-left: 234px;
+    text-align: center;
 }
