@@ -1,10 +1,15 @@
 body {
     display: inline-block;
-    width: 100%;
+    width: 1512px;
 }
 
 .container {
     width: 100%;
     background-color: var(--bg-light-grey);
     padding-bottom: 108px;
+}
+
+.row {
+    width: 70%;
+    margin-left: 234px;
 }

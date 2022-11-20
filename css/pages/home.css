@@ -1,3 +1,4 @@
+/* header start */
 .header-container {
     padding-bottom: 0;
 }
@@ -29,7 +30,9 @@
 .header-menu a:first-child {
     padding-left: 0;
 }
+/* header end */
 
+/* hero start */
 .hero-container {
     height: 665px;
     background-image: url(../../img/hero_image.png);
@@ -50,3 +53,26 @@ h1 {
 .hero-container p {
     padding: 27px 0 125px 0;
 }
+/* hero end */
+
+/*kodel start */
+.kodel-container {
+    height: 830px;
+    text-align: center;
+    background-color: var(--bg-grey);
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+    padding: 114px 0 102px 0;
+}
+.kodel-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.kodel-content p {
+    padding-top: 80px;
+}
+/*kodel end */
