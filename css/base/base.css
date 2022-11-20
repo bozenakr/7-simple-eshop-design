@@ -21,4 +21,13 @@ body * {
 }
 body {
     font-family: Inter, sans-serif;
+    color: var(--black);
+}
+
+.description {
+    font-size: 24px;
+}
+
+.description-h1 {
+    font-size: 26px;
 }

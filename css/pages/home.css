@@ -1,4 +1,8 @@
 .header-container {
+    padding-bottom: 0;
+}
+
+.header-content {
     height: 109px;
     display: flex;
     justify-content: space-between;
@@ -8,7 +12,6 @@
 
 .logo {
     font-size: 24px;
-    line-height: 29.05px;
     margin-top: 40px;
 }
 
@@ -25,4 +28,25 @@
 
 .header-menu a:first-child {
     padding-left: 0;
+}
+
+.hero-container {
+    height: 665px;
+    background-image: url(../../img/hero_image.png);
+    background-size: cover;
+    background-position: fixed;
+    text-align: center;
+    margin: 0 83px 0 83px;
+    padding-bottom: 110px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 163px;
+}
+
+.hero-container p {
+    padding: 27px 0 125px 0;
 }
