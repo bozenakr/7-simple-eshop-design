@@ -5,7 +5,6 @@ body {
 
 .container {
     width: 100%;
-    background-color: var(--bg-light-grey);
     padding-bottom: 108px;
 }
 

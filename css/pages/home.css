@@ -75,7 +75,7 @@ h1 {
 .kodel-container {
     height: 830px;
     text-align: center;
-    background-color: var(--bg-grey);
+    background-color: var(--bg-light-grey);
 }
 
 h2 {
@@ -135,3 +135,28 @@ h3 {
     background-color: #f3f3f3;
 }
 /* duk end */
+
+/* naujienlaiskis start */
+h4 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 91px 0 40px 0;
+}
+
+.form {
+    padding-top: 80px;
+}
+
+.input1 {
+    font-size: 24px;
+    padding: 19px 332px 19px 22px;
+}
+
+.input2 {
+    font-size: 20px;
+    padding: 22px;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/* naujienlaiskis end */
