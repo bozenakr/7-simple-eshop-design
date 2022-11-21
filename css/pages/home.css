@@ -53,22 +53,6 @@ h1 {
 .hero-container p {
     padding: 27px 0 125px 0;
 }
-
-.btn-hero {
-    padding: 0.5em 1.5em;
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--white);
-    background-color: var(--black);
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.btn-hero-light {
-    font-weight: 400;
-    color: var(--black);
-    background-color: var(--white);
-}
 /* hero end */
 
 /*kodel start */
@@ -83,11 +67,13 @@ h2 {
     font-weight: 600;
     padding: 114px 0 102px 0;
 }
+
 .kodel-content {
     display: flex;
     justify-content: space-between;
     gap: 60px;
 }
+
 .kodel-content p {
     padding-top: 80px;
 }
@@ -111,52 +97,46 @@ h3 {
 .duk-column {
     width: 444px;
 }
+
 .duk-column div {
     font-size: 32px;
     font-weight: 600;
     padding-bottom: 20px;
 }
-
-.duk-buttons {
-    padding-top: 200px;
-}
-.btn-duk {
-    font-size: 32px;
-    color: var(--white);
-    background-color: var(--dark-grey);
-    text-decoration: none;
-    padding: 0.3em 1em;
-    margin-right: 10px;
-    border-radius: 11px;
-}
-
-.btn-duk-light {
-    color: var(--black);
-    background-color: #f3f3f3;
-}
 /* duk end */
 
 /* naujienlaiskis start */
 h4 {
-    font-size: 40px;
-    font-weight: 600;
     padding: 91px 0 40px 0;
 }
-
-.form {
-    padding-top: 80px;
-}
-
-.input1 {
-    font-size: 24px;
-    padding: 19px 332px 19px 22px;
-}
-
-.input2 {
-    font-size: 20px;
-    padding: 22px;
-    background-color: var(--black);
-    color: var(--white);
-}
-
 /* naujienlaiskis end */
+
+/* footer start */
+footer {
+    height: 434px;
+    font-size: 20px;
+    background-color: var(--bg-grey);
+    padding-top: 51px;
+}
+
+.footer-content {
+    padding-top: 46px;
+    padding-bottom: 131px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.footer-line {
+    width: 100%;
+    height: 0;
+    border: 3px solid var(--white);
+    background-color: var(--white);
+    margin-bottom: 30px;
+}
+/* footer end */

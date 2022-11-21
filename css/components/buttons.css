@@ -1,0 +1,33 @@
+.btn-hero {
+    padding: 0.5em 1.5em;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--black);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-hero-light {
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.duk-buttons {
+    padding-top: 200px;
+}
+.btn-duk {
+    font-size: 32px;
+    color: var(--white);
+    background-color: var(--dark-grey);
+    text-decoration: none;
+    padding: 0.3em 1em;
+    margin-right: 10px;
+    border-radius: 11px;
+}
+
+.btn-duk-light {
+    color: var(--black);
+    background-color: #f3f3f3;
+}

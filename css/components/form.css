@@ -1,0 +1,15 @@
+.form {
+    padding-top: 80px;
+}
+
+.input1 {
+    font-size: 24px;
+    padding: 19px 332px 19px 22px;
+}
+
+.input2 {
+    font-size: 20px;
+    padding: 22px;
+    background-color: var(--black);
+    color: var(--white);
+}

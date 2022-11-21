@@ -6,10 +6,17 @@ body {
 .container {
     width: 100%;
     padding-bottom: 108px;
+    text-align: center;
 }
 
 .row {
     width: 70%;
     margin-left: 234px;
-    text-align: center;
 }
+
+.row-wide {
+    width: 85%;
+    margin-left: 113.4px;
+}
+
+@media;
