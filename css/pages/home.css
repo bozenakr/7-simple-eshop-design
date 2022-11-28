@@ -7,8 +7,7 @@
     height: 109px;
     display: flex;
     justify-content: space-between;
-    margin-left: 125px;
-    margin-right: 272px;
+    margin: 0 272px 0 125px;
 }
 
 .logo {
@@ -57,7 +56,6 @@ h1 {
 
 /*kodel start */
 .kodel-container {
-    height: 830px;
     text-align: center;
     background-color: var(--bg-light-grey);
 }
@@ -102,6 +100,10 @@ h3 {
     font-size: 32px;
     font-weight: 600;
     padding-bottom: 20px;
+}
+
+.duk-buttons {
+    padding-top: 200px;
 }
 /* duk end */
 
