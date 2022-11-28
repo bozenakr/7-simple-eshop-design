@@ -16,7 +16,6 @@ Design: [Simple eshop design](https://www.figma.com/file/ckVqD5CByyU7l2QwrNzuLJ/
 
 -   Github pages
 
-
 ## 😃 Author
 
 Božena: [Github](https://github.com/bozenakr)
